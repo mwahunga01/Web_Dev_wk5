@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Fundamentals Mastery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Fundamentals Assignment</h1>
+    <p>Panaversity Learning Platform – Cohort 2025</p>
+
+    <!-- Part 1: User Input & Logic -->
+    <section id="part1">
+      <h2>Part 1: Basics & Conditionals</h2>
+      <input type="number" id="ageInput" placeholder="Enter your age" />
+      <button onclick="checkAge()">Check Age</button>
+      <p id="ageResult"></p>
+    </section>
+
+    <!-- Part 2: Functions -->
+    <section id="part2">
+      <h2>Part 2: Reusable Functions</h2>
+      <button onclick="greetUser()">Greet Me</button>
+      <button onclick="calculateTax()">Calculate Tax (1000 KES)</button>
+      <p id="functionResult"></p>
+    </section>
+
+    <!-- Part 3: Loops -->
+    <section id="part3">
+      <h2>Part 3: Loops in Action</h2>
+      <button onclick="countdown()">Start Countdown</button>
+      <button onclick="generateTable()">Generate Multiplication Table (5)</button>
+      <div id="loopOutput"></div>
+    </section>
+
+    <!-- Part 4: DOM Mastery -->
+    <section id="part4">
+      <h2>Part 4: DOM Manipulation</h2>
+      <button id="toggleBtn">Toggle Dark Mode</button>
+      <button id="addBtn">Add New Item</button>
+      <button id="removeBtn">Remove Last Item</button>
+      <ul id="dynamicList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+      <p id="clickCounter">Clicks: 0</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
